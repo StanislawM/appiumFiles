@@ -15,8 +15,8 @@ public class tutorialClass {
         caps.setCapability("udid", "013a3912c1d9adf1");
         caps.setCapability("platformName", "Android");
         caps.setCapability("platformVersion", "7.1.2");
-        caps.setCapability("appPackage", "com.puntopago.puntopagoapp");
-        caps.setCapability("appActivity", "com.puntopago.puntopagoapp.view.activity_main.MainActivity");
+        caps.setCapability("appPackage", "com.application.app");
+        caps.setCapability("appActivity", "com.application.app.view.activity_main.MainActivity");
         caps.setCapability("noReset", "true");
         AndroidDriver<AndroidElement> driver = new AndroidDriver<>(new URL("http://0.0.0.0:4723/wd/hub"), caps);
 
